@@ -31,17 +31,44 @@ h1 {
   height: 100%;
 }
 
+img {
+  width: 50%;
+  height: 50%;
+  text-align: center;
+  display: block;
+  margin: 0px auto;
+}
+
+hr {
+  text-align: right;
+  width: 50%;
+  margin-left: 200px;
+}
+
 .container-description {
   font-size: 1.5em;
   font-weight: 100;
   text-align: center;
-  margin: 20px 0;
+  margin: 20px;
+  list-style-type: square;
+  border-bottom: 10px;
+  justify-content: center;
 }
 
 .container-ingredients {
   font-size: 1.5em;
+  font-weight: 100;
+  text-align: justify;
+  margin: 20px;
+  list-style-type: none;
+  border-bottom: 10px;
 }
 
 .container-directions {
   font-size: 1.5em;
+  font-weight: 100;
+  text-align: center;
+  margin: 20px;
+  list-style-type: square;
+  border-bottom: 10px;
 }
